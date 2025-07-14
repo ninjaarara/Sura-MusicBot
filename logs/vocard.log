@@ -1,1 +1,610 @@
+2025-07-12 16:01:38 [INFO    ] discord.gateway: Shard ID None has successfully RESUMED session 5d82bbb12c0ca25de9786ba887d485cd.
+2025-07-12 16:19:17 [WARNING ] vocard: No active token available for processing the request.
+2025-07-12 16:21:01 [WARNING ] vocard: No active token available for processing the request.
+2025-07-12 16:43:05 [INFO    ] discord.gateway: Shard ID None has successfully RESUMED session 5d82bbb12c0ca25de9786ba887d485cd.
+2025-07-12 17:33:57 [INFO    ] discord.gateway: Shard ID None has successfully RESUMED session 5d82bbb12c0ca25de9786ba887d485cd.
+2025-07-12 21:11:10 [INFO    ] discord.gateway: Shard ID None has successfully RESUMED session 5d82bbb12c0ca25de9786ba887d485cd.
+2025-07-12 22:10:09 [WARNING ] vocard: No active token available for processing the request.
+2025-07-12 22:12:28 [WARNING ] vocard: No active token available for processing the request.
+2025-07-12 22:12:44 [WARNING ] vocard: No active token available for processing the request.
+2025-07-12 22:13:39 [WARNING ] vocard: No active token available for processing the request.
+2025-07-12 22:16:19 [WARNING ] vocard: No active token available for processing the request.
+2025-07-12 22:19:22 [WARNING ] vocard: No active token available for processing the request.
+2025-07-12 22:24:43 [WARNING ] vocard: No active token available for processing the request.
+2025-07-12 22:27:35 [WARNING ] vocard: No active token available for processing the request.
+2025-07-12 22:28:45 [WARNING ] vocard: No active token available for processing the request.
+2025-07-12 22:29:16 [ERROR   ] asyncio: Task exception was never retrieved
+future: <Task finished name='discord-ui-view-dispatch-cca98c5b4448c904b4951c952026e66a' coro=<View._scheduled_task() done, defined at /home/container/.local/lib/python3.11/site-packages/discord/ui/view.py:424> exception=NotFound('404 Not Found (error code: 10062): Unknown interaction')>
+Traceback (most recent call last):
+  File "/home/container/.local/lib/python3.11/site-packages/discord/ui/view.py", line 435, in _scheduled_task
+    await item.callback(interaction)
+  File "/home/container/Vocard/views/controller.py", line 118, in callback
+    await interaction.response.edit_message(view=self.view)
+  File "/home/container/.local/lib/python3.11/site-packages/discord/interactions.py", line 1154, in edit_message
+    response = await adapter.create_interaction_response(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/.local/lib/python3.11/site-packages/discord/webhook/async_.py", line 224, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10062): Unknown interaction
 
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/container/.local/lib/python3.11/site-packages/discord/ui/view.py", line 437, in _scheduled_task
+    return await self.on_error(interaction, e, item)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/Vocard/views/controller.py", line 519, in on_error
+    await interaction.response.send_message(error)
+  File "/home/container/.local/lib/python3.11/site-packages/discord/interactions.py", line 1004, in send_message
+    response = await adapter.create_interaction_response(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/.local/lib/python3.11/site-packages/discord/webhook/async_.py", line 224, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10062): Unknown interaction
+2025-07-12 22:33:24 [WARNING ] vocard: No active token available for processing the request.
+2025-07-12 22:38:44 [WARNING ] vocard: No active token available for processing the request.
+2025-07-12 22:43:44 [WARNING ] vocard: No active token available for processing the request.
+2025-07-12 22:49:34 [WARNING ] vocard: No active token available for processing the request.
+2025-07-12 22:53:19 [WARNING ] vocard: No active token available for processing the request.
+2025-07-12 22:56:40 [WARNING ] vocard: No active token available for processing the request.
+2025-07-12 23:01:27 [WARNING ] vocard: No active token available for processing the request.
+2025-07-12 23:06:37 [WARNING ] vocard: No active token available for processing the request.
+2025-07-12 23:10:45 [WARNING ] vocard: No active token available for processing the request.
+2025-07-12 23:15:04 [WARNING ] vocard: No active token available for processing the request.
+2025-07-12 23:16:31 [WARNING ] vocard: No active token available for processing the request.
+2025-07-12 23:19:45 [WARNING ] vocard: No active token available for processing the request.
+2025-07-12 23:30:22 [WARNING ] vocard: No active token available for processing the request.
+2025-07-12 23:31:35 [WARNING ] vocard: No active token available for processing the request.
+2025-07-12 23:33:58 [WARNING ] vocard: No active token available for processing the request.
+2025-07-12 23:35:14 [WARNING ] vocard: No active token available for processing the request.
+2025-07-12 23:38:17 [WARNING ] vocard: No active token available for processing the request.
+2025-07-12 23:39:13 [WARNING ] vocard: No active token available for processing the request.
+2025-07-12 23:44:22 [WARNING ] vocard: No active token available for processing the request.
+2025-07-12 23:48:20 [WARNING ] vocard: No active token available for processing the request.
+2025-07-12 23:49:48 [WARNING ] vocard: No active token available for processing the request.
+2025-07-12 23:52:48 [WARNING ] vocard: No active token available for processing the request.
+2025-07-12 23:54:58 [WARNING ] vocard: No active token available for processing the request.
+2025-07-12 23:54:58 [ERROR   ] asyncio: Task exception was never retrieved
+future: <Task finished name='discord-ui-view-dispatch-55c25306168adc39466ed97d9ae1872e' coro=<View._scheduled_task() done, defined at /home/container/.local/lib/python3.11/site-packages/discord/ui/view.py:424> exception=NotFound('404 Not Found (error code: 10062): Unknown interaction')>
+Traceback (most recent call last):
+  File "/home/container/.local/lib/python3.11/site-packages/discord/ui/view.py", line 435, in _scheduled_task
+    await item.callback(interaction)
+  File "/home/container/Vocard/views/controller.py", line 417, in callback
+    await func.send(interaction, "skipped", interaction.user)
+  File "/home/container/Vocard/function.py", line 227, in send
+    return await send_func(text, embed=embed, delete_after=delete_after, ephemeral=ephemeral, allowed_mentions=ALLOWED_MENTIONS)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/.local/lib/python3.11/site-packages/discord/interactions.py", line 1004, in send_message
+    response = await adapter.create_interaction_response(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/.local/lib/python3.11/site-packages/discord/webhook/async_.py", line 224, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10062): Unknown interaction
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/container/.local/lib/python3.11/site-packages/discord/ui/view.py", line 437, in _scheduled_task
+    return await self.on_error(interaction, e, item)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/Vocard/views/controller.py", line 519, in on_error
+    await interaction.response.send_message(error)
+  File "/home/container/.local/lib/python3.11/site-packages/discord/interactions.py", line 1004, in send_message
+    response = await adapter.create_interaction_response(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/.local/lib/python3.11/site-packages/discord/webhook/async_.py", line 224, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10062): Unknown interaction
+2025-07-12 23:55:07 [WARNING ] vocard: No active token available for processing the request.
+2025-07-12 23:55:15 [WARNING ] vocard: No active token available for processing the request.
+2025-07-12 23:58:09 [WARNING ] vocard: No active token available for processing the request.
+2025-07-12 23:59:17 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 00:01:55 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 00:06:29 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 00:10:14 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 00:13:05 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 00:16:46 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 00:17:16 [INFO    ] discord.gateway: Shard ID None has successfully RESUMED session 5d82bbb12c0ca25de9786ba887d485cd.
+2025-07-13 00:20:49 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 00:22:11 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 00:25:05 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 00:29:43 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 00:34:26 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 00:39:08 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 00:43:52 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 00:56:22 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 00:59:57 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 01:04:22 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 01:35:00 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 01:41:45 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 01:47:54 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 01:58:39 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 02:22:59 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 02:28:19 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 02:32:22 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 02:37:01 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 03:08:40 [INFO    ] discord.gateway: Shard ID None has successfully RESUMED session 5d82bbb12c0ca25de9786ba887d485cd.
+2025-07-13 03:34:22 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 03:34:38 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 03:39:38 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 03:44:38 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 03:49:37 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 03:52:30 [INFO    ] discord.gateway: Shard ID None has successfully RESUMED session 5d82bbb12c0ca25de9786ba887d485cd.
+2025-07-13 03:54:37 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 03:59:37 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 04:04:37 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 04:09:36 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 04:14:36 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 04:19:36 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 04:24:36 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 04:29:36 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 04:34:36 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 04:39:36 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 04:44:36 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 04:49:36 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 04:54:36 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 04:59:35 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 05:04:35 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 05:09:35 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 05:14:35 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 05:19:35 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 05:24:34 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 05:29:34 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 05:34:34 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 05:36:07 [INFO    ] discord.gateway: Shard ID None has successfully RESUMED session 5d82bbb12c0ca25de9786ba887d485cd.
+2025-07-13 05:39:33 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 05:44:33 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 05:49:33 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 05:54:33 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 05:59:33 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 06:04:32 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 06:09:32 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 06:14:32 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 06:19:31 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 06:20:47 [INFO    ] discord.gateway: Shard ID None has successfully RESUMED session 5d82bbb12c0ca25de9786ba887d485cd.
+2025-07-13 06:24:31 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 06:29:31 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 06:34:31 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 06:39:31 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 06:44:31 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 06:49:30 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 06:54:30 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 06:59:30 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 07:04:07 [INFO    ] discord.gateway: Shard ID None has successfully RESUMED session 5d82bbb12c0ca25de9786ba887d485cd.
+2025-07-13 07:04:30 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 07:09:30 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 07:14:29 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 07:19:29 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 07:24:29 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 07:29:29 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 07:34:29 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 07:39:28 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 07:44:28 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 07:49:28 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 07:54:28 [WARNING ] vocard: No active token available for processing the request.
+2025-07-132025-07-13 10:19:10 [WARNING ] discord.client: PyNaCl is not installed, voice will NOT be supported
+2025-07-13 10:19:10 [INFO    ] discord.client: logging in using static token
+2025-07-13 10:19:12 [INFO    ] vocard: Successfully connected to [session] MongoDB!
+2025-07-13 10:19:12 [INFO    ] vocard: Loaded Translator
+2025-07-13 10:19:12 [INFO    ] vocard: Loaded basic
+2025-07-13 10:19:12 [INFO    ] vocard: Loaded listeners
+2025-07-13 10:19:12 [INFO    ] vocard: Loaded playlist
+2025-07-13 10:19:12 [INFO    ] vocard: Loaded effect
+2025-07-13 10:19:12 [INFO    ] vocard: Loaded settings
+2025-07-13 10:19:12 [INFO    ] vocard: Loaded task
+2025-07-13 10:19:13 [INFO    ] discord.gateway: Shard ID None has connected to Gateway (Session ID: 2950f2260152a4a24ed7970eaf9e9505).
+2025-07-13 10:19:14 [INFO    ] vocard: Node [DEFAULT] is connected!
+2025-07-13 10:19:15 [INFO    ] vocard: Changed the bot status to /help
+2025-07-13 10:19:15 [INFO    ] vocard: ------------------
+2025-07-13 10:19:15 [INFO    ] vocard: Logging As [IDN] SURA BOT#3880
+2025-07-13 10:19:15 [INFO    ] vocard: Bot ID: 1084764453112909855
+2025-07-13 10:19:15 [INFO    ] vocard: ------------------
+2025-07-13 10:19:15 [INFO    ] vocard: Discord Version: 2.5.2
+2025-07-13 10:19:15 [INFO    ] vocard: Python Version: 3.11.13 (main, Jun  4 2025, 17:13:12) [GCC 10.2.1 20210110]
+2025-07-13 10:19:15 [INFO    ] vocard: ------------------
+2025-07-13 10:19:46 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 10:27:48 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 10:29:39 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 10:31:45 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 10:35:00 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 10:39:47 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 10:45:35 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 10:49:12 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 10:55:26 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 11:00:33 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 11:04:30 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 11:07:06 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 11:11:56 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 11:15:57 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 11:22:16 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 11:26:01 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 11:30:04 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 11:34:31 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 11:39:18 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 11:43:17 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 11:47:44 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 11:50:47 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 11:53:19 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 11:58:28 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 12:01:10 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 12:03:00 [INFO    ] discord.gateway: Shard ID None has successfully RESUMED session 2950f2260152a4a24ed7970eaf9e9505.
+2025-07-13 12:04:33 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 12:06:56 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 12:09:19 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 12:13:01 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 12:14:18 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 12:17:37 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 12:20:44 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 12:24:30 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 12:28:05 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 12:28:58 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 12:32:20 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 12:34:59 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 12:39:34 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 12:43:15 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 12:46:07 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 12:46:39 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 12:50:02 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 12:53:27 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 12:56:21 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 13:01:42 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 13:06:11 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 13:10:57 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 13:14:42 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 13:20:24 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 13:22:53 [INFO    ] discord.gateway: Shard ID None has successfully RESUMED session 2950f2260152a4a24ed7970eaf9e9505.
+2025-07-13 13:23:10 [ERROR   ] discord.app_commands.tree: Ignoring exception in autocomplete for 'play'
+Traceback (most recent call last):
+  File "/home/container/.local/lib/python3.11/site-packages/discord/app_commands/tree.py", line 1302, in _call
+    await command._invoke_autocomplete(interaction, focused, namespace)
+  File "/home/container/.local/lib/python3.11/site-packages/discord/app_commands/commands.py", line 927, in _invoke_autocomplete
+    await interaction.response.autocomplete(choices)
+  File "/home/container/.local/lib/python3.11/site-packages/discord/interactions.py", line 1279, in autocomplete
+    await adapter.create_interaction_response(
+  File "/home/container/.local/lib/python3.11/site-packages/discord/webhook/async_.py", line 224, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10062): Unknown interaction
+2025-07-13 13:23:10 [ERROR   ] discord.app_commands.tree: Ignoring exception in autocomplete for 'play'
+Traceback (most recent call last):
+  File "/home/container/.local/lib/python3.11/site-packages/discord/app_commands/tree.py", line 1302, in _call
+    await command._invoke_autocomplete(interaction, focused, namespace)
+  File "/home/container/.local/lib/python3.11/site-packages/discord/app_commands/commands.py", line 927, in _invoke_autocomplete
+    await interaction.response.autocomplete(choices)
+  File "/home/container/.local/lib/python3.11/site-packages/discord/interactions.py", line 1279, in autocomplete
+    await adapter.create_interaction_response(
+  File "/home/container/.local/lib/python3.11/site-packages/discord/webhook/async_.py", line 224, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10062): Unknown interaction
+2025-07-13 13:23:10 [ERROR   ] discord.app_commands.tree: Ignoring exception in autocomplete for 'play'
+Traceback (most recent call last):
+  File "/home/container/.local/lib/python3.11/site-packages/discord/app_commands/tree.py", line 1302, in _call
+    await command._invoke_autocomplete(interaction, focused, namespace)
+  File "/home/container/.local/lib/python3.11/site-packages/discord/app_commands/commands.py", line 927, in _invoke_autocomplete
+    await interaction.response.autocomplete(choices)
+  File "/home/container/.local/lib/python3.11/site-packages/discord/interactions.py", line 1279, in autocomplete
+    await adapter.create_interaction_response(
+  File "/home/container/.local/lib/python3.11/site-packages/discord/webhook/async_.py", line 224, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10062): Unknown interaction
+2025-07-13 13:23:11 [ERROR   ] discord.app_commands.tree: Ignoring exception in autocomplete for 'play'
+Traceback (most recent call last):
+  File "/home/container/.local/lib/python3.11/site-packages/discord/app_commands/tree.py", line 1302, in _call
+    await command._invoke_autocomplete(interaction, focused, namespace)
+  File "/home/container/.local/lib/python3.11/site-packages/discord/app_commands/commands.py", line 927, in _invoke_autocomplete
+    await interaction.response.autocomplete(choices)
+  File "/home/container/.local/lib/python3.11/site-packages/discord/interactions.py", line 1279, in autocomplete
+    await adapter.create_interaction_response(
+  File "/home/container/.local/lib/python3.11/site-packages/discord/webhook/async_.py", line 224, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10062): Unknown interaction
+2025-07-13 13:23:36 [ERROR   ] discord.app_commands.tree: Ignoring exception in autocomplete for 'play'
+Traceback (most recent call last):
+  File "/home/container/.local/lib/python3.11/site-packages/discord/app_commands/tree.py", line 1302, in _call
+    await command._invoke_autocomplete(interaction, focused, namespace)
+  File "/home/container/.local/lib/python3.11/site-packages/discord/app_commands/commands.py", line 918, in _invoke_autocomplete
+    choices = await param.autocomplete(binding, interaction, value)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/Vocard/cogs/basic.py", line 96, in play_autocomplete
+    tracks: list[voicelink.Track] = await node.get_tracks(current, requester=interaction.user, search_type=SearchType.SPOTIFY)
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/Vocard/voicelink/pool.py", line 379, in get_tracks
+    raise TrackLoadError(f"{data['message']} [{data['severity']}]")
+voicelink.exceptions.TrackLoadError: Something went wrong when looking up the track [fault]
+2025-07-13 13:23:37 [ERROR   ] discord.app_commands.tree: Ignoring exception in autocomplete for 'play'
+Traceback (most recent call last):
+  File "/home/container/.local/lib/python3.11/site-packages/discord/app_commands/tree.py", line 1302, in _call
+    await command._invoke_autocomplete(interaction, focused, namespace)
+  File "/home/container/.local/lib/python3.11/site-packages/discord/app_commands/commands.py", line 918, in _invoke_autocomplete
+    choices = await param.autocomplete(binding, interaction, value)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/Vocard/cogs/basic.py", line 96, in play_autocomplete
+    tracks: list[voicelink.Track] = await node.get_tracks(current, requester=interaction.user, search_type=SearchType.SPOTIFY)
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/Vocard/voicelink/pool.py", line 379, in get_tracks
+    raise TrackLoadError(f"{data['message']} [{data['severity']}]")
+voicelink.exceptions.TrackLoadError: Something went wrong when looking up the track [fault]
+2025-07-13 13:23:56 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 13:28:40 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 13:28:44 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 13:28:53 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 13:32:45 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 13:37:46 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 13:38:38 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 13:40:08 [ERROR   ] discord.app_commands.tree: Ignoring exception in autocomplete for 'play'
+Traceback (most recent call last):
+  File "/home/container/.local/lib/python3.11/site-packages/discord/app_commands/tree.py", line 1302, in _call
+    await command._invoke_autocomplete(interaction, focused, namespace)
+  File "/home/container/.local/lib/python3.11/site-packages/discord/app_commands/commands.py", line 927, in _invoke_autocomplete
+    await interaction.response.autocomplete(choices)
+  File "/home/container/.local/lib/python3.11/site-packages/discord/interactions.py", line 1279, in autocomplete
+    await adapter.create_interaction_response(
+  File "/home/container/.local/lib/python3.11/site-packages/discord/webhook/async_.py", line 224, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10062): Unknown interaction
+2025-07-13 13:40:08 [ERROR   ] discord.app_commands.tree: Ignoring exception in autocomplete for 'play'
+Traceback (most recent call last):
+  File "/home/container/.local/lib/python3.11/site-packages/discord/app_commands/tree.py", line 1302, in _call
+    await command._invoke_autocomplete(interaction, focused, namespace)
+  File "/home/container/.local/lib/python3.11/site-packages/discord/app_commands/commands.py", line 927, in _invoke_autocomplete
+    await interaction.response.autocomplete(choices)
+  File "/home/container/.local/lib/python3.11/site-packages/discord/interactions.py", line 1279, in autocomplete
+    await adapter.create_interaction_response(
+  File "/home/container/.local/lib/python3.11/site-packages/discord/webhook/async_.py", line 224, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10062): Unknown interaction
+2025-07-13 13:40:08 [ERROR   ] discord.app_commands.tree: Ignoring exception in autocomplete for 'play'
+Traceback (most recent call last):
+  File "/home/container/.local/lib/python3.11/site-packages/discord/app_commands/tree.py", line 1302, in _call
+    await command._invoke_autocomplete(interaction, focused, namespace)
+  File "/home/container/.local/lib/python3.11/site-packages/discord/app_commands/commands.py", line 927, in _invoke_autocomplete
+    await interaction.response.autocomplete(choices)
+  File "/home/container/.local/lib/python3.11/site-packages/discord/interactions.py", line 1279, in autocomplete
+    await adapter.create_interaction_response(
+  File "/home/container/.local/lib/python3.11/site-packages/discord/webhook/async_.py", line 224, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10062): Unknown interaction
+2025-07-13 13:40:08 [ERROR   ] discord.app_commands.tree: Ignoring exception in autocomplete for 'play'
+Traceback (most recent call last):
+  File "/home/container/.local/lib/python3.11/site-packages/discord/app_commands/tree.py", line 1302, in _call
+    await command._invoke_autocomplete(interaction, focused, namespace)
+  File "/home/container/.local/lib/python3.11/site-packages/discord/app_commands/commands.py", line 927, in _invoke_autocomplete
+    await interaction.response.autocomplete(choices)
+  File "/home/container/.local/lib/python3.11/site-packages/discord/interactions.py", line 1279, in autocomplete
+    await adapter.create_interaction_response(
+  File "/home/container/.local/lib/python3.11/site-packages/discord/webhook/async_.py", line 224, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10062): Unknown interaction
+2025-07-13 13:40:20 [ERROR   ] discord.app_commands.tree: Ignoring exception in autocomplete for 'play'
+Traceback (most recent call last):
+  File "/home/container/.local/lib/python3.11/site-packages/discord/app_commands/tree.py", line 1302, in _call
+    await command._invoke_autocomplete(interaction, focused, namespace)
+  File "/home/container/.local/lib/python3.11/site-packages/discord/app_commands/commands.py", line 918, in _invoke_autocomplete
+    choices = await param.autocomplete(binding, interaction, value)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/Vocard/cogs/basic.py", line 96, in play_autocomplete
+    tracks: list[voicelink.Track] = await node.get_tracks(current, requester=interaction.user, search_type=SearchType.SPOTIFY)
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/Vocard/voicelink/pool.py", line 379, in get_tracks
+    raise TrackLoadError(f"{data['message']} [{data['severity']}]")
+voicelink.exceptions.TrackLoadError: Something went wrong when looking up the track [fault]
+2025-07-13 13:40:20 [ERROR   ] discord.app_commands.tree: Ignoring exception in autocomplete for 'play'
+Traceback (most recent call last):
+  File "/home/container/.local/lib/python3.11/site-packages/discord/app_commands/tree.py", line 1302, in _call
+    await command._invoke_autocomplete(interaction, focused, namespace)
+  File "/home/container/.local/lib/python3.11/site-packages/discord/app_commands/commands.py", line 918, in _invoke_autocomplete
+    choices = await param.autocomplete(binding, interaction, value)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/Vocard/cogs/basic.py", line 96, in play_autocomplete
+    tracks: list[voicelink.Track] = await node.get_tracks(current, requester=interaction.user, search_type=SearchType.SPOTIFY)
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/Vocard/voicelink/pool.py", line 379, in get_tracks
+    raise TrackLoadError(f"{data['message']} [{data['severity']}]")
+voicelink.exceptions.TrackLoadError: Something went wrong when looking up the track [fault]
+2025-07-13 13:40:21 [ERROR   ] discord.app_commands.tree: Ignoring exception in autocomplete for 'play'
+Traceback (most recent call last):
+  File "/home/container/.local/lib/python3.11/site-packages/discord/app_commands/tree.py", line 1302, in _call
+    await command._invoke_autocomplete(interaction, focused, namespace)
+  File "/home/container/.local/lib/python3.11/site-packages/discord/app_commands/commands.py", line 918, in _invoke_autocomplete
+    choices = await param.autocomplete(binding, interaction, value)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/Vocard/cogs/basic.py", line 96, in play_autocomplete
+    tracks: list[voicelink.Track] = await node.get_tracks(current, requester=interaction.user, search_type=SearchType.SPOTIFY)
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/Vocard/voicelink/pool.py", line 379, in get_tracks
+    raise TrackLoadError(f"{data['message']} [{data['severity']}]")
+voicelink.exceptions.TrackLoadError: Something went wrong when looking up the track [fault]
+2025-07-13 13:42:55 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 13:46:42 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 13:50:44 [ERROR   ] discord.client: Ignoring exception in on_voicelink_track_end
+Traceback (most recent call last):
+  File "/home/container/.local/lib/python3.11/site-packages/discord/client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/container/Vocard/cogs/listeners.py", line 137, in on_voicelink_track_end
+    await player.do_next()
+  File "/home/container/Vocard/voicelink/player.py", line 413, in do_next
+    if self.autoplay and await self.get_recommendations():
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/Vocard/voicelink/player.py", line 854, in get_recommendations
+    tracks = await self._node.get_recommendations(track)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/Vocard/voicelink/pool.py", line 401, in get_recommendations
+    tracks = await self.get_tracks(query=query, requester=self.bot.user)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/Vocard/voicelink/pool.py", line 379, in get_tracks
+    raise TrackLoadError(f"{data['message']} [{data['severity']}]")
+voicelink.exceptions.TrackLoadError: Could not find tracks from mix. [suspicious]
+2025-07-13 13:52:35 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 13:57:14 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 13:59:04 [ERROR   ] discord.app_commands.tree: Ignoring exception in autocomplete for 'play'
+Traceback (most recent call last):
+  File "/home/container/.local/lib/python3.11/site-packages/discord/app_commands/tree.py", line 1302, in _call
+    await command._invoke_autocomplete(interaction, focused, namespace)
+  File "/home/container/.local/lib/python3.11/site-packages/discord/app_commands/commands.py", line 918, in _invoke_autocomplete
+    choices = await param.autocomplete(binding, interaction, value)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/Vocard/cogs/basic.py", line 96, in play_autocomplete
+    tracks: list[voicelink.Track] = await node.get_tracks(current, requester=interaction.user, search_type=SearchType.SPOTIFY)
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/Vocard/voicelink/pool.py", line 379, in get_tracks
+    raise TrackLoadError(f"{data['message']} [{data['severity']}]")
+voicelink.exceptions.TrackLoadError: Something went wrong when looking up the track [fault]
+2025-07-13 13:59:04 [ERROR   ] discord.app_commands.tree: Ignoring exception in autocomplete for 'play'
+Traceback (most recent call last):
+  File "/home/container/.local/lib/python3.11/site-packages/discord/app_commands/tree.py", line 1302, in _call
+    await command._invoke_autocomplete(interaction, focused, namespace)
+  File "/home/container/.local/lib/python3.11/site-packages/discord/app_commands/commands.py", line 918, in _invoke_autocomplete
+    choices = await param.autocomplete(binding, interaction, value)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/Vocard/cogs/basic.py", line 96, in play_autocomplete
+    tracks: list[voicelink.Track] = await node.get_tracks(current, requester=interaction.user, search_type=SearchType.SPOTIFY)
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/Vocard/voicelink/pool.py", line 379, in get_tracks
+    raise TrackLoadError(f"{data['message']} [{data['severity']}]")
+voicelink.exceptions.TrackLoadError: Something went wrong when looking up the track [fault]
+2025-07-13 13:59:05 [ERROR   ] discord.app_commands.tree: Ignoring exception in autocomplete for 'play'
+Traceback (most recent call last):
+  File "/home/container/.local/lib/python3.11/site-packages/discord/app_commands/tree.py", line 1302, in _call
+    await command._invoke_autocomplete(interaction, focused, namespace)
+  File "/home/container/.local/lib/python3.11/site-packages/discord/app_commands/commands.py", line 918, in _invoke_autocomplete
+    choices = await param.autocomplete(binding, interaction, value)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/Vocard/cogs/basic.py", line 96, in play_autocomplete
+    tracks: list[voicelink.Track] = await node.get_tracks(current, requester=interaction.user, search_type=SearchType.SPOTIFY)
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/Vocard/voicelink/pool.py", line 379, in get_tracks
+    raise TrackLoadError(f"{data['message']} [{data['severity']}]")
+voicelink.exceptions.TrackLoadError: Something went wrong when looking up the track [fault]
+2025-07-13 14:02:35 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 14:06:45 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 14:10:44 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 14:15:05 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 14:18:12 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 14:24:06 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 14:24:17 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 14:27:25 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 14:31:19 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 14:35:24 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 14:40:05 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 14:45:19 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 14:49:02 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 14:52:57 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 14:57:14 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 15:02:41 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 15:07:07 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 15:11:09 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 15:14:12 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 15:17:41 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 15:21:05 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 15:26:03 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 15:32:52 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 15:33:05 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 15:38:23 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 15:43:43 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 15:47:20 [INFO    ] discord.gateway: Shard ID None has successfully RESUMED session 2950f2260152a4a24ed7970eaf9e9505.
+2025-07-13 15:47:51 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 15:51:55 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 15:56:44 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 16:02:04 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 16:06:09 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 16:11:17 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 16:14:48 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 16:18:26 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 16:22:53 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 16:29:07 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 16:32:47 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 16:35:55 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 16:36:01 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 16:39:46 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 16:41:11 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 16:44:25 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 16:47:27 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 16:51:31 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 16:57:06 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 17:01:39 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 17:05:23 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 17:09:52 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 17:14:49 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 17:19:23 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 17:23:25 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 17:28:03 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 17:32:03 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 17:35:33 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 17:38:59 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 17:43:22 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 17:46:45 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 17:50:56 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 17:55:13 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 17:56:53 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 17:57:00 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 18:00:58 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 18:01:08 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 18:05:04 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 18:17:13 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 18:26:48 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 18:31:22 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 18:36:29 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 18:41:01 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 18:44:58 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 18:48:35 [INFO    ] discord.gateway: Shard ID None has successfully RESUMED session 2950f2260152a4a24ed7970eaf9e9505.
+2025-07-13 18:49:31 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 18:53:38 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 18:57:56 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 19:02:47 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 19:07:00 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 19:11:13 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 19:15:31 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 19:20:17 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 19:24:19 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 19:28:59 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 19:32:55 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 19:37:59 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 19:42:51 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 19:46:48 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 19:50:41 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 19:55:11 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 19:59:07 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 20:03:03 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 20:08:10 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 20:12:41 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 20:16:55 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 20:21:40 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 20:39:28 [WARNING ] discord.client: PyNaCl is not installed, voice will NOT be supported
+2025-07-13 20:39:28 [INFO    ] discord.client: logging in using static token
+2025-07-13 20:39:30 [INFO    ] vocard: Successfully connected to [session] MongoDB!
+2025-07-13 20:39:30 [INFO    ] vocard: Loaded Translator
+2025-07-13 20:39:30 [INFO    ] vocard: Loaded basic
+2025-07-13 20:39:30 [INFO    ] vocard: Loaded listeners
+2025-07-13 20:39:30 [INFO    ] vocard: Loaded playlist
+2025-07-13 20:39:30 [INFO    ] vocard: Loaded effect
+2025-07-13 20:39:30 [INFO    ] vocard: Loaded settings
+2025-07-13 20:39:30 [INFO    ] vocard: Loaded task
+2025-07-13 20:39:31 [INFO    ] discord.gateway: Shard ID None has connected to Gateway (Session ID: ebec14835ab76ff143caf4145c6667f7).
+2025-07-13 20:39:31 [INFO    ] vocard: Node [DEFAULT] is connected!
+2025-07-13 20:39:33 [INFO    ] vocard: Changed the bot status to /help
+2025-07-13 20:39:33 [INFO    ] vocard: ------------------
+2025-07-13 20:39:33 [INFO    ] vocard: Logging As [IDN] SURA BOT#3880
+2025-07-13 20:39:33 [INFO    ] vocard: Bot ID: 1084764453112909855
+2025-07-13 20:39:33 [INFO    ] vocard: ------------------
+2025-07-13 20:39:33 [INFO    ] vocard: Discord Version: 2.5.2
+2025-07-13 20:39:33 [INFO    ] vocard: Python Version: 3.11.13 (main, Jun  4 2025, 17:13:12) [GCC 10.2.1 20210110]
+2025-07-13 20:39:33 [INFO    ] vocard: ------------------
+2025-07-13 20:40:28 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 20:44:41 [WARNING ] vocard: No active token available for processing the request.
+2025-07-13 20:45:11 [ERROR   ] discord.client: Ignoring exception in on_voicelink_track_end
+Traceback (most recent call last):
+  File "/home/container/.local/lib/python3.11/site-packages/discord/client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "/home/container/Vocard/cogs/listeners.py", line 137, in on_voicelink_track_end
+    await player.do_next()
+  File "/home/container/Vocard/voicelink/player.py", line 413, in do_next
+    if self.autoplay and await self.get_recommendations():
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/Vocard/voicelink/player.py", line 854, in get_recommendations
+    tracks = await self._node.get_recommendations(track)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/Vocard/voicelink/pool.py", line 401, in get_recommendations
+    tracks = await self.get_tracks(query=query, requester=self.bot.user)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/container/Vocard/voicelink/pool.py", line 379, in get_tracks
+    raise TrackLoadError(f"{data['message']} [{data['severity']}]")
+voicelink.exceptions.TrackLoadError: Could not find tracks from mix. [suspicious]
