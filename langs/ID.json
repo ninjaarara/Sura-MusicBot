@@ -1,1 +1,347 @@
+{
 
+    "unknownException": "⚠️ Terjadi kesalahan saat menjalankan perintah! Silakan coba lagi nanti atau bergabung dengan server discord kami untuk dukungan lebih lanjut.",
+
+    "enabled": "diaktifkan",
+
+    "disabled": "dinonaktifkan",
+
+    "nodeReconnect": "Silakan coba lagi! Setelah node terhubung ulang.",
+
+    "noChannel": "Tidak ada saluran suara untuk disambungkan. Silakan berikan atau bergabung dengan satu.",
+
+    "alreadyConnected": "Sudah terhubung ke saluran suara.",
+
+    "noPermission": "Maaf! Saya tidak memiliki izin untuk bergabung atau berbicara di saluran suara Anda.",
+
+    "noCreatePermission": "Maaf! Saya tidak memiliki izin untuk membuat saluran permintaan lagu.",
+
+    "noPlaySource": "Tidak dapat menemukan sumber yang dapat diputar!",
+
+    "noPlayer": "Tidak ditemukan pemutar di server ini.",
+
+    "notVote": "Perintah ini membutuhkan vote Anda! Ketik `/vote` untuk info lebih lanjut.",
+
+    "missingIntents": "Maaf, perintah ini tidak dapat dieksekusi karena bot tidak memiliki intent yang diperlukan: `({0})`.",
+
+    "languageNotFound": "Paket bahasa tidak ditemukan! Silakan pilih paket bahasa yang ada.",
+
+    "changedLanguage": "Berhasil diubah ke paket bahasa `{0}`.",
+
+    "setPrefix": "Selesai! Prefix saya di server Anda sekarang `{0}`. Coba jalankan `{1}ping` untuk mengujinya.",
+
+    "setDJ": "Setel dj menjadi {0}.",
+
+    "setqueue": "Setel mode antrian menjadi `{0}`.",
+
+    "247": "Mode 24/7 sekarang `{0}`.",
+
+    "bypassVote": "Anda telah `{0}` sistem voting.",
+
+    "setVolume": "Setel volume ke `{0}`%",
+
+    "togglecontroller": "Anda sekarang `{0}` pengontrol musik.",
+
+    "toggleDuplicateTrack": "Anda sekarang `{0}` pencegahan lagu duplikat.",
+
+    "toggleControllerMsg": "Anda sekarang `{0}` pesan dari pengontrol musik.",
+
+    "settingsMenu": "Pengaturan Server | {0}",
+
+    "settingsTitle": "❤️ Informasi Dasar:",
+
+    "settingsValue": "```Prefix: {0}\nBahasa: {1}\nPengontrol Musik: {2}\nPeran DJ: @{3}\nBypass Vote: {4}\n24/7: {5}\nVolume Default: {6}%\nWaktu Putar: {7}```",
+
+    "settingsTitle2": "🔗 Info Antrian:",
+
+    "settingsValue2": "```Mode Antrian: {0}\nLagu Maks: {1}\nLagu Duplikat: {2}```",
+
+    "settingsTitle3": "🎤 Info Status Suara:",
+
+    "settingsPermTitle": "✨ Izin:",
+
+    "settingsPermValue": "```{0} Administrator\n{1} Manage_Guild\n{2} Manage_Channel\n{3} Manage_Messages```",
+
+    "pingTitle1": "Info Bot:",
+
+    "pingTitle2": "Info Pemutar:",
+
+    "pingfield1": "```ID Shard: {0}/{1}\nLatensi Shard: {2:.3f}s {3}\nRegion: {4}```",
+
+    "pingfield2": "```Node: {0} - {1:.3f}s\nPemutar: {2}\nRegion Suara: {3}```",
+
+    "addEffect": "Menerapkan efek `{0}`.",
+
+    "clearEffect": "Efek suara telah dibersihkan!",
+
+    "FilterTagAlreadyInUse": "Efek suara ini sudah digunakan! Silakan gunakan /cleareffect <Tag> untuk menghapusnya.",
+
+    "playlistViewTitle": "📜 Semua Playlist {0}",
+
+    "playlistViewHeaders": "ID:,Waktu:,Nama:,Lagu:",
+
+    "playlistFooter": "Ketik /playlist play [playlist] untuk menambahkan playlist ke antrian.",
+
+    "playlistNotFound": "Playlist [`{0}`] tidak ditemukan. Ketik /playlist view untuk melihat semua playlist Anda.",
+
+    "playlistNotAccess": "Maaf! Anda tidak diizinkan mengakses playlist ini!",
+
+    "playlistNoTrack": "Maaf! Tidak ada lagu di playlist [`{0}`].",
+
+    "playlistNotAllow": "Perintah ini tidak diizinkan untuk playlist tertaut dan dibagikan.",
+
+    "playlistPlay": "Menambahkan playlist [`{0}`] dengan `{1}` lagu ke antrian.",
+
+    "playlistOverText": "Maaf! Nama playlist tidak boleh melebihi 10 karakter.",
+
+    "playlistSameName": "Maaf! Silakan pilih nama baru untuk playlist.",
+
+    "playlistDeleteError": "Anda tidak diizinkan menghapus playlist default.",
+
+    "playlistRemove": "Anda telah menghapus playlist [`{0}`].",
+
+    "playlistSendErrorPlayer": "Maaf! Anda tidak dapat mengirim undangan ke diri sendiri.",
+
+    "playlistSendErrorBot": "Maaf! Anda tidak dapat mengirim undangan ke bot.",
+
+    "playlistBelongs": "Maaf! Playlist ini milik <@{0}>.",
+
+    "playlistShare": "Maaf! Playlist ini telah dibagikan dengan {0}.",
+
+    "playlistSent": "Maaf! Anda sudah mengirim undangan ke pengguna tersebut sebelumnya.",
+
+    "noPlaylistAcc": "{0} belum membuat akun playlist.",
+
+    "overPlaylistCreation": "Anda tidak dapat membuat lebih dari `{0}` playlist!",
+
+    "playlistExists": "Playlist [`{0}`] sudah ada.",
+
+    "playlistNotInvalidUrl": "Masukkan tautan playlist Spotify atau Youtube yang valid.",
+
+    "playlistCreated": "Anda telah membuat playlist `{0}`. Ketik /playlist view untuk info lebih lanjut.",
+
+    "playlistRenamed": "Anda mengganti nama `{0}` menjadi `{1}`.",
+
+    "playlistLimitTrack": "Anda mencapai batas! Hanya dapat menambahkan `{0}` lagu ke playlist Anda.",
+
+    "playlistPlaylistLink": "Anda tidak diizinkan menggunakan tautan playlist.",
+
+    "playlistStream": "Anda tidak diizinkan menambahkan video streaming ke playlist.",
+
+    "playlistPositionNotFound": "Tidak dapat menemukan posisi `{0}` di playlist [`{1}`] Anda!",
+
+    "playlistRemoved": "👋 Menghapus **{0}** dari playlist {1} [`{2}`].",
+
+    "playlistClear": "Anda berhasil membersihkan playlist [`{0}`].",
+
+    "playlistView": "Penampil Playlist",
+
+    "playlistViewDesc": "```Nama | ID: {0} | {1}\nTotal Lagu: {2}\nPemilik: {3}\nTipe: {4}\n```",
+
+    "playlistViewPermsValue": "📖 Baca: ✓    ✍🏽 Tulis: {0}    🗑️ Hapus: {1}",
+
+    "playlistViewPermsValue2": "📖 Baca: {0}",
+
+    "playlistViewTrack": "Lagu",
+
+    "playlistViewPage": "Halaman: {0}/{1} | Durasi Total: {2}",
+
+    "inboxFull": "Maaf! Kotak masuk {0} penuh.",
+
+    "inboxNoMsg": "Tidak ada pesan di kotak masuk Anda.",
+
+    "invitationSent": "Undangan terkirim ke {0}.",
+
+    "notInChannel": "{0}, Anda harus berada di {1} untuk menggunakan perintah suara. Silakan bergabung kembali jika Anda di voice!",
+
+    "noTrackPlaying": "Tidak ada lagu yang diputar saat ini",
+
+    "noTrackFound": "Tidak ditemukan lagu dengan kueri tersebut! Berikan URL yang valid.",
+
+    "noLinkSupport": "Perintah pencarian tidak mendukung tautan!",
+
+    "voted": "Anda telah memilih!",
+
+    "missingPerms_pos": "Hanya DJ atau admin yang dapat mengubah posisi.",
+
+    "missingPerms_mode": "Hanya DJ atau admin yang dapat mengubah mode loop.",
+
+    "missingPerms_queue": "Hanya DJ atau admin yang dapat menghapus lagu dari antrian.",
+
+    "missingPerms_autoplay": "Hanya DJ atau admin yang dapat mengaktifkan/menonaktifkan mode autoplay!",
+
+    "missingPerms_function": "Hanya DJ atau Admin yang dapat menggunakan fungsi ini.",
+
+    "timeFormatError": "Format waktu salah. Contoh: 2:42 atau 12:39:31",
+
+    "lyricsNotFound": "Lirik tidak ditemukan. Ketik /lyrics <Nama Lagu> <Pencipta> untuk mencari lirik.",
+
+    "missingTrackInfo": "Beberapa detail lagu tidak lengkap.",
+
+    "noVoiceChannel": "Saluran Suara Tidak Ditemukan!",
+
+    "playlistAddError": "Anda tidak diizinkan menambahkan video streaming ke playlist!",
+
+    "playlistAddError2": "Ada masalah saat menambahkan lagu ke playlist!",
+
+    "playlistlimited": "Anda mencapai batas! Hanya dapat menambahkan {0} lagu ke playlist.",
+
+    "playlistrepeated": "Lagu ini sudah ada di playlist Anda!",
+
+    "playlistAdded": "❤️ Menambahkan **{0}** ke playlist {1} [`{2}`]!",
+
+    "playerDropdown": "Pilih lagu untuk dilompati ...",
+
+    "playerFilter": "Pilih filter untuk diterapkan ...",
+
+    "buttonBack": "Kembali",
+
+    "buttonPause": "Jeda",
+
+    "buttonResume": "Lanjutkan",
+
+    "buttonSkip": "Lewati",
+
+    "buttonLeave": "Keluar",
+
+    "buttonLoop": "Loop",
+
+    "buttonVolumeUp": "Naikkan Volume",
+
+    "buttonVolumeDown": "Turunkan Volume",
+
+    "buttonVolumeMute": "Bisukan",
+
+    "buttonVolumeUnmute": "Suarakan",
+
+    "buttonAutoPlay": "Putar Otomatis",
+
+    "buttonShuffle": "Acak",
+
+    "buttonForward": "Maju",
+
+    "buttonRewind": "Mundur",
+
+    "buttonLyrics": "Lirik",
+
+    "nowplayingDesc": "**Sedang Diputar:**\n```{0}```",
+
+    "nowplayingField": "Berikutnya:",
+
+    "nowplayingLink": "Dengarkan di {0}",
+
+    "connect": "Terhubung ke {0}",
+
+    "live": "LANGSUNG",
+
+    "playlistLoad": " 🎶 Menambahkan playlist **{0}** dengan `{1}` lagu ke antrian.",
+
+    "trackLoad": "Menambahkan **[{0}](<{1}>)** oleh **{2}** (`{3}`) untuk mulai diputar.\n",
+
+    "trackLoad_pos": "Menambahkan **[{0}](<{1}>)** oleh **{2}** (`{3}`) ke antrian di posisi **{4}**\n",
+
+    "searchTitle": "Pencarian: {0}",
+
+    "searchDesc": "➥ Platform: {0} **{1}**\n➥ Hasil: **{2}**\n\n{3}",
+
+    "searchWait": "Pilih lagu yang ingin ditambahkan ke antrian.",
+
+    "searchTimeout": "Pencarian waktu habis. Silakan coba lagi nanti.",
+
+    "searchSuccess": "Lagu ditambahkan ke antrian.",
+
+    "queueTitle": "Antrian Berikutnya:",
+
+    "historyTitle": "Riwayat Antrian:",
+
+    "viewTitle": "Antrian Musik",
+
+    "viewDesc": "**Sedang Diputar: [Klik Saya]({0}) ⮯**\n{1}",
+
+    "viewFooter": "Halaman: {0}/{1} | Durasi Total: {2}",
+
+    "pauseError": "Pemutar sudah dijeda.",
+
+    "pauseVote": "{0} telah memilih untuk menjeda lagu. [{1}/{2}]",
+
+    "paused": "`{0}` telah menjeda pemutar.",
+
+    "resumeError": "Pemutar tidak dijeda.",
+
+    "resumeVote": "{0} telah memilih untuk melanjutkan lagu. [{1}/{2}]",
+
+    "resumed": "`{0}` telah melanjutkan pemutar.",
+
+    "shuffleError": "Tambahkan lebih banyak lagu ke antrian sebelum mengacak.",
+
+    "shuffleVote": "{0} telah memilih untuk mengacak antrian. [{1}/{2}]",
+
+    "shuffled": "Antrian telah diacak.",
+
+    "skipError": "Tidak ada lagu untuk dilewati.",
+
+    "skipVote": "{0} telah memilih untuk melewati lagu. [{1}/{2}]",
+
+    "skipped": "`{0}` telah melewati lagu.",
+
+    "backVote": "{0} telah memilih untuk kembali ke lagu sebelumnya. [{1}/{2}]",
+
+    "backed": "`{0}` telah kembali ke lagu sebelumnya.",
+
+    "leaveVote": "{0} telah memilih untuk menghentikan pemutar. [{1}/{2}]",
+
+    "left": "`{0}` telah menghentikan pemutar.",
+
+    "seek": "Setel pemutar ke **{0}**",
+
+    "repeat": "Mode ulang telah disetel ke `{0}`",
+
+    "cleared": "Membersihkan semua lagu di `{0}`",
+
+    "removed": "`{0}` lagu dihapus dari antrian.",
+
+    "forward": "Memajukan pemutar ke **{0}**",
+
+    "rewind": "Memundurkan pemutar ke **{0}**",
+
+    "replay": "Memutar ulang lagu saat ini.",
+
+    "swapped": "`{0}` dan `{1}` telah ditukar",
+
+    "moved": "Memindahkan `{0}` ke `{1}`",
+
+    "autoplay": "Mode autoplay sekarang **{0}**",
+
+    "notdj": "Anda bukan DJ. DJ saat ini adalah {0}.",
+
+    "djToMe": "Anda tidak dapat mentransfer peran DJ ke diri sendiri atau bot.",
+
+    "djnotinchannel": "`{0}` tidak ada di saluran suara.",
+
+    "djswap": "Anda telah mentransfer peran dj ke `{0}`.",
+
+    "chaptersDropdown": "Pilih bab untuk dilompati ...",
+
+    "noChaptersFound": "Tidak ditemukan bab!",
+
+    "chatpersNotSupport": "Perintah ini hanya mendukung video Youtube!",
+
+    "voicelinkQueueFull": "Maaf, Anda mencapai batas maksimal `{0}` lagu di antrian!",
+
+    "voicelinkOutofList": "Berikan indeks lagu yang valid!",
+
+    "voicelinkDuplicateTrack": "Maaf, lagu ini sudah ada di antrian.",
+
+    "deocdeError": "Terjadi kesalahan saat mendekode file!",
+
+    "invalidStartTime": "Waktu mulai tidak valid, harus antara `00:00` dan `{0}`",
+
+    "invalidEndTime": "Waktu akhir tidak valid, harus antara `00:00` dan `{0}`",
+
+    "invalidTimeOrder": "Waktu akhir tidak boleh kurang dari atau sama dengan waktu mulai",
+
+    "setStageAnnounceTemplate": "Selesai! Mulai sekarang, status suara seperti yang Anda gunakan akan dinamai sesuai template Anda. Anda akan melihat pembaruan dalam beberapa detik.",
+
+    "createSongRequestChannel": "Saluran permintaan lagu ({0}) telah dibuat! Anda dapat meminta lagu apa pun dengan nama atau URL di saluran itu, tanpa perlu menggunakan prefix bot."
+
+}
